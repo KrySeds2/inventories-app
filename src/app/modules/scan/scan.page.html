@@ -1,0 +1,27 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <img src="../../assets/img/inventories.png" alt="inventories">
+  </div>
+  <div class="centerPedido">
+    <ion-label class="labelStyle">Pedido: </ion-label>
+    <hr class="lineStyle1">
+  </div>
+  <div class="centerBusqueda">
+    <ion-label class="labelStyle1" >Escanear paquete</ion-label>
+      <hr class="lineStyle1">
+  </div>
+
+  <div class="button">
+    <ion-button id="submit" type="submit" color="primary" (click)="download()">Agregar</ion-button>
+  </div>
+  <div class="button1">
+    <ion-button id="submit" style="color: antiquewhite;" type="submit" color="success" (click)="download()">Finalizar</ion-button>
+  </div>
+
+</ion-content>
