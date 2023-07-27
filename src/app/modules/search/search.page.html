@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <img src="../../assets/img/inventories.png" alt="inventories">
+  </div>
+<div class="centerPedido">
+  <ion-label class="labelStyle1" >Buscar pedido</ion-label>
+    <hr class="lineStyle1">
+</div>
+  <div class="center">
+
+    <form (ngSubmit)="folio()" [formGroup]="formData" class="col-10
+    col-offset-1 form grid-nogutter">
+
+      <ion-label class="labelStyle" position="floating">Ingresar folio</ion-label>
+      <ion-input placeholder="12345" formControlName="folio" class="inputStyle" type="text"></ion-input>
+    </form>
+
+  </div>
+  <div class="button">
+    <ion-button id="submit"  type="submit" (click)="folio()"  >Buscar</ion-button>
+  </div>
+</ion-content>
