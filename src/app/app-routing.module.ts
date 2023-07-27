@@ -20,6 +20,10 @@ const routes: Routes = [
     path:'escaneo-pedido',
     canActivate:[],
    loadChildren:()=> import('./modules/scan/scan.module').then(m => m.ScanPageModule)
+  },{
+    path:'pedido-escaneado',
+    canActivate:[],
+   loadChildren:()=> import('./modules/scanned-order/scan-order.module').then(m => m.ScanOrderPageModule)
   }
   // {
   //   path: '',
