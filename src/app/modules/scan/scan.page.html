@@ -1,9 +1,5 @@
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
 
-    </ion-toolbar>
-  </ion-header>
 
   <div id="container">
     <img src="../../assets/img/inventories.png" alt="inventories">
@@ -16,7 +12,32 @@
     <ion-label class="labelStyle1" >Escanear paquete</ion-label>
       <hr class="lineStyle1">
   </div>
+  <div class="grid centeridPaquete" >
+    <ion-label class="labelStyle2" labelPlacement="floating">Identificador unico del paquete</ion-label>
+    <ion-input placeholder="8652-54296-65454-96354"  class="inputStyle" type="text"></ion-input>
+    <ion-button class="buttonStyle centerButtonCamera1"  color="medium" (click)="download()"><ion-icon slot="icon-only" name="logo-instagram"></ion-icon></ion-button>
+  </div>
+  <div class="grid centeridMateria" >
+    <ion-label class="labelStyle2" position="floating">Identificador unico del paquete</ion-label>
+    <ion-input placeholder="8652-54296-65454-96354"  class="inputStyle" type="text"></ion-input>
+    <ion-button class="buttonStyle centerButtonCamera2"  color="medium" (click)="download()"><ion-icon slot="icon-only" name="logo-instagram"></ion-icon></ion-button>
+  </div>
+  <div class="grid centerfecha" >
+    <ion-label class="labelStyle2" position="floating">Fecha de caducidad</ion-label>
+    <ion-datetime-button style="color: white; justify-content: left; padding-top: 10px; padding-left: 5px;" datetime="datetime"></ion-datetime-button>
+    <ion-modal [keepContentsMounted]="true">
+      <ng-template>
+        <ion-datetime presentation="date" id="datetime"></ion-datetime>
+      </ng-template>
+    </ion-modal>
+  </div>
+  <div class="grid centerCantidad" >
+    <ion-label class="labelStyle2" position="floating">Identificador unico del paquete</ion-label>
+    <ion-input placeholder="8652-54296-65454-96354"  class="inputStyle1" type="text"></ion-input>
+  </div>
+<div>
 
+</div>
   <div class="button">
     <ion-button id="submit" type="submit" color="primary" (click)="download()">Agregar</ion-button>
   </div>

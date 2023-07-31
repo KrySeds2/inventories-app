@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ScanPage } from './scan.page';
 import { ScanRoutingModule } from './scan-routing.module';
 import {InputTextModule} from 'primeng/inputtext';
-
+import {CalendarModule} from 'primeng/calendar';
 
 @NgModule({
   imports: [
@@ -15,6 +15,8 @@ import {InputTextModule} from 'primeng/inputtext';
     ScanRoutingModule,
     InputTextModule,
     ReactiveFormsModule,
+    CalendarModule
+
 
   ],
   declarations: [ScanPage],

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { PickerOptions } from '@ionic/angular';
 import { AuthService } from 'src/app/core/services/auth.service';
 import { Login } from 'src/app/core/services/login.model';
 
@@ -14,6 +15,7 @@ export class ScanPage {
   user: Login;
   errorLogin = false;
   customError = false;
+  selectedDate: string;
   formData: FormGroup;
   customErrorData = {
     message:'',

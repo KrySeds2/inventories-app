@@ -4,7 +4,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 20%;
+  top: 10%;
   transform: translateY(-50%);
 }
 .center{
@@ -18,14 +18,14 @@
   position: absolute !important;
   left: 0 !important;
   right: 0!important;
-  top: 30%!important;
+  top: 25%!important;
   transform: translateY(-50%)!important;
 }
 .centerBusqueda{
   position: absolute !important;
   left: 0 !important;
   right: 0!important;
-  top: 38%!important;
+  top: 33%!important;
   transform: translateY(-50%)!important;
 }
 .button{
@@ -33,7 +33,7 @@
   position: absolute !important;
   left: 0 !important;
   right: 0!important;
-  top: 70%!important;
+  top: 78%!important;
   transform: translateY(-50%)!important;
   width: 90%;
 }
@@ -42,10 +42,52 @@
   position: absolute !important;
   left: 0 !important;
   right: 0!important;
-  top: 80%!important;
+  top: 86%!important;
   transform: translateY(-50%)!important;
   width: 80%;
 
+}
+.centeridPaquete{
+  position: absolute !important;
+  left: 0 !important;
+  right: 0!important;
+  top: 44%!important;
+  transform: translateY(-50%)!important;
+}
+.centeridMateria{
+  position: absolute !important;
+  left: 0 !important;
+  right: 0!important;
+  top: 56%!important;
+  transform: translateY(-50%)!important;
+}
+.centerfecha{
+  position: absolute !important;
+  left: 0 !important;
+  right: 0!important;
+  top: 64%!important;
+  transform: translateY(-50%)!important;
+}
+.centerCantidad{
+  position: absolute !important;
+  left: 0 !important;
+  right: 0!important;
+  top: 75%!important;
+  transform: translateY(-50%)!important;
+}
+.centerButtonCamera1{
+  position: absolute !important;
+  left: 70% !important;
+  right: 0!important;
+  top: 35%!important;
+  transform: translateY(-50%)!important;
+}
+.centerButtonCamera2{
+  position: absolute !important;
+  left: 70% !important;
+  right: 0!important;
+  top: 35%!important;
+  transform: translateY(-50%)!important;
 }
 #container strong {
   font-size: 20px;
@@ -82,4 +124,28 @@
   border-top: 1px solid white;
   margin: 10px 10px;
 
+}
+//formulario
+.labelStyle2{
+  font-size: 15px;
+  text-align: center!important;
+  margin: 10px;
+}
+.inputStyle{
+  background-color: #ffffff;
+  color: #757575;
+  border-radius: 5px;
+  width: 70%;
+  margin: 10px;
+}
+.inputStyle1{
+  background-color: #ffffff;
+  color: #757575;
+  border-radius: 5px;
+  width: 93%;
+  margin: 10px;
+}
+
+.buttonStyle{
+  width: 20%;
 }
